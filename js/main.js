@@ -8,9 +8,11 @@ $(function(){
         backDelay: 1500,
         showCursor: false,
         callback: function() {
-            $('.section__content')
-                .append("<h2 class='animated fadeInUp'>" +
-                            "Software Engineer by day, Hacker by night. </h2>");
+            setTimeout(function() {
+                $('#tagline')
+                    .css('visibility', 'visible')
+                    .addClass('animated fadeInUp');
+                }, 800);
         }
-        });//callback to fade in,
+        });
 });

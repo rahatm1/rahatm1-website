@@ -4,6 +4,7 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    height: 100%;
 }
 
 ::-moz-selection {
@@ -160,6 +161,7 @@ body {
   line-height: 1.5625em;
   letter-spacing: 0.3px;
   font-weight: 400;
+  height: 100%;
 }
 
 .avatar {
@@ -191,10 +193,11 @@ body {
   position: relative;
   max-width: 1000px;
   width: 95%;
-  height: 500px;
 }
+
 .section--top {
   background: #6767BA;
+  height: 100%;
 }
 
 .top__title {
@@ -203,6 +206,11 @@ body {
   margin-bottom: 6.25px;
   text-transform: uppercase;
 }
+
+#tagline {
+  visibility: hidden;
+}
+
 .top__text {
   color: rgba(255, 255, 255, 0.7);
   width: 100%;
