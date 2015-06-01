@@ -1,6 +1,7 @@
 TODO:
 1. Increase size of h1, h2 and avatar?
 2. Add css for tagline h2. Add shadows for h1 and h2?
+3. Social Icons on the right corner
 
 Bugs:
 
@@ -9,20 +10,17 @@ Ideas:
 	* Hacker, Coder, Engineer?
 	* Something with coffee
 	*Coding by day, hackrer by night.
-2. slide animation name/intro/photo 
+2. slide animation name/intro/photo  -- done
 	OR
 	zoom out animation
+7. Text hides as you scroll: http://stefanerickson.github.io/covervid/
 3. SVG Apple watch thing for skills* page 2.
-4. SVG animated name:
-	* https://github.com/dboudro/AnimateSVGText
-	* http://maxwellito.github.io/vivus/
 5. Full Screen Scroll OR 7
 6. Contact Form? Logo: http://codepen.io/acronamy/pen/QwmdBL
-7. Text hides as you scroll: http://stefanerickson.github.io/covervid/
 8. Footer?
 9. For hacking: http://codepen.io/ramsaylanier/pen/raybzy
-10. Social Icons on the right corner
-11. Page 3 is projects direct copy from cygnus inventive
+10. Page 3 is projects direct copy from cygnus inventive
+11. Arrow pointing downwards to next page
 
 Inspiration:
 0. http://codepen.io/digitalhour/pen/WvGJVV
@@ -38,5 +36,18 @@ Inspiration:
 10. http://fittextjs.com -- responsive
 11. http://nick-jonas.github.io/windows/
 
+JS BG:
+1. https://github.com/jnicol/particleground
+2. http://codepen.io/digitalhour/pen/WvGJVV
+3. http://codepen.io/VincentGarreau/pen/pnlso
+4. http://howlmedia.co.za/javascript-particle-generator/
+5. http://vincentgarreau.com/particles.js/ ***
+
+
 http://coolors.co/000000-322a26-454b66-677db7-9ca3db
+
+Discarded Ideas:
+4. SVG animated name:
+	* https://github.com/dboudro/AnimateSVGText
+	* http://maxwellito.github.io/vivus/
 
