@@ -1,125 +1,110 @@
-	var SEPARATION = 100, AMOUNTX = 50, AMOUNTY = 35;
-
-			var container, stats;
-			var camera, scene, renderer;
-
-			var particles, particle, count = 0;
-
-			var mouseX = 0, mouseY = 0;
-
-			var windowHalfX = window.innerWidth / 2;
-			var windowHalfY = window.innerHeight / 2;
-
-			init();
-			animate();
-
-			function init() {
-
-				container = document.getElementById( 'container' );
-				document.body.appendChild( container );
-
-				camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 1, 10000 );
-				camera.position.z = 10000;
-
-				scene = new THREE.Scene();
-
-				particles = new Array();
-
-				var PI2 = Math.PI * 2;
-				var material = new THREE.SpriteCanvasMaterial( {
-
-					color: 0xffffff,
-					program: function ( context ) {
-
-						context.beginPath();
-						context.arc( 0, 0, 0.3, 0, PI2, true );
-						context.fill();
-
-					}
-
-				} );
-
-				var i = 0;
-
-				for ( var ix = 0; ix < AMOUNTX; ix ++ ) {
-
-					for ( var iy = 0; iy < AMOUNTY; iy ++ ) {
-
-						particle = particles[ i ++ ] = new THREE.Sprite( material );
-						particle.position.x = ix * SEPARATION - ( ( AMOUNTX * SEPARATION ) / 2 );
-						particle.position.z = iy * SEPARATION - ( ( AMOUNTY * SEPARATION ) / 2 );
-						scene.add( particle );
-
-					}
-
-				}
-
-				renderer = new THREE.CanvasRenderer();
-				renderer.setPixelRatio( window.devicePixelRatio );
-				renderer.setSize( window.innerWidth, window.innerHeight );
-				container.appendChild( renderer.domElement );
-
-				// stats = new Stats();
-				// stats.domElement.style.position = 'absolute';
-				// stats.domElement.style.top = '0px';
-				// container.appendChild( stats.domElement );
-
-	
-
-				//
-
-				window.addEventListener( 'resize', onWindowResize, false );
-
-			}
-
-			function onWindowResize() {
-
-				windowHalfX = window.innerWidth / 2;
-				windowHalfY = window.innerHeight / 2;
-
-				camera.aspect = window.innerWidth / window.innerHeight;
-				camera.updateProjectionMatrix();
-
-				renderer.setSize( window.innerWidth, window.innerHeight );
-
-			}
-
-			//
-
-			//
-
-			function animate() {
-
-				requestAnimationFrame( animate );
-
-				render();
-				//stats.update();
-
-			}
-
-			function render() {
-
-		
-				camera.position.set(0,355,122);
-
-				var i = 0;
-        
-				for ( var ix = 0; ix < AMOUNTX; ix ++ ) {
-
-					for ( var iy = 0; iy < AMOUNTY; iy ++ ) {
-
-						particle = particles[ i++ ];
-						particle.position.y = ( Math.sin( ( ix + count ) * 0.3 ) * 50 ) +
-							( Math.sin( ( iy + count ) * 0.5 ) * 50 );
-						particle.scale.x = particle.scale.y = ( Math.sin( ( ix + count ) * 0.3 ) + 1 ) * 4 +
-							( Math.sin( ( iy + count ) * 0.5 ) + 1 ) * 4;
-
-					}
-
-				}
-
-				renderer.render( scene, camera );
-
-				count += 0.1;
-
-			}
+particlesJS("particles-js", {
+  "particles": {
+    "number": {
+      "value": 90,
+      "density": {
+        "enable": true,
+        "value_area": 700
+      }
+    },
+    "color": {
+      "value": ["#aa73ff", "#f8c210", "#83d238", "#33b1f8"]
+    },
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
+      },
+      "polygon": {
+        "nb_sides": 15
+      },
+      "image": {
+        "src": "img/github.svg",
+        "width": 100,
+        "height": 100
+      }
+    },
+    "opacity": {
+      "value": 0.5,
+      "random": false,
+      "anim": {
+        "enable": false,
+        "speed": 1.5,
+        "opacity_min": 0.15,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 2.5,
+      "random": false,
+      "anim": {
+        "enable": true,
+        "speed": 2,
+        "size_min": 0.15,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": true,
+      "distance": 110,
+      "color": "#33b1f8",
+      "opacity": 0.3,
+      "width": 1
+    },
+    "move": {
+      "enable": true,
+      "speed": 1.8,
+      "direction": "none",
+      "random": true,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": true,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "grab"
+      },
+      "onclick": {
+        "enable": false,
+        "mode": "repulse"
+      },
+      "resize": false
+    },
+    "modes": {
+      "grab": {
+        "distance": 150,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 400,
+        "size": 40,
+        "duration": 2,
+        "opacity": 8,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 50,
+        "duration": 0.8
+      },
+      "push": {
+        "particles_nb": 2
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true
+});

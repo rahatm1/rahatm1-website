@@ -6,6 +6,7 @@ TODO:
 Bugs:
 
 Ideas:
+0. mountain of particles, i.e. no.2 sideways
 1. Tag Line: (Typing effect) -- almost done
 	* Hacker, Coder, Engineer?
 	* Something with coffee
@@ -21,8 +22,10 @@ Ideas:
 9. For hacking: http://codepen.io/ramsaylanier/pen/raybzy
 10. Page 3 is projects direct copy from cygnus inventive
 11. Arrow pointing downwards to next page
+12. Add quirky comments in the source
 
 Inspiration:
+00. http://codepen.io/rahatm1/full/xGqzgZ --Particle
 0. http://codepen.io/digitalhour/pen/WvGJVV
 1. https://www.typify.io/?ref=producthunt
 2. parallax scroll top photo
