@@ -22,7 +22,9 @@ Ideas:
 9. For hacking: http://codepen.io/ramsaylanier/pen/raybzy
 10. Page 3 is projects direct copy from cygnus inventive
 11. Arrow pointing downwards to next page
-12. Add quirky comments in the source
+12. Add quirky comments in the source -- OR crazy obfuscation
+13. Push Notification when someone visits.
+14. Cloudflare?
 
 Inspiration:
 00. http://codepen.io/rahatm1/full/xGqzgZ --Particle
