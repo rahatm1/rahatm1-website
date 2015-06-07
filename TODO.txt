@@ -38,6 +38,9 @@ Inspiration:
 9. http://themeforest.net/item/coffee-cream-vcard-and-portfolio-html-template/full_screen_preview/4737939
 10. http://fittextjs.com -- responsive
 11. http://nick-jonas.github.io/windows/
+12. https://github.com/julianlloyd/scrollReveal.js
+13. http://alvarotrigo.com/fullPage/#3rdPage
+14. http://paolorotolo.github.io
 
 JS BG:
 1. https://github.com/jnicol/particleground
@@ -47,7 +50,9 @@ JS BG:
 5. http://vincentgarreau.com/particles.js/ ***
 
 
+http://coolors.co/app/323840-a682ff-715aff-5887ff-55c1ff
 http://coolors.co/000000-322a26-454b66-677db7-9ca3db
+http://coolors.co/app/001021-1481ba-11b5e4-0caadc-323840
 
 Discarded Ideas:
 4. SVG animated name:
