@@ -199,6 +199,27 @@ body {
   height: 100%;
 }
 
+/*.section.style1 {
+  background-color: #3ba666;
+  -moz-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
+  -webkit-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
+  -o-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
+  -ms-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
+  background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
+  color: #ffffff;
+}*/
+
+.section.style1 {
+  background-color: #3ba666;
+  /*-moz-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
+  -webkit-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
+  -o-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
+  -ms-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);*/
+  background-image: linear-gradient(60deg, #0DAB76 50%, #0DAB76 50%);
+  color: #ffffff;
+}
+
+
 .top__title {
 /*  font-family: 'PT sans', sans-serif;
 */
@@ -281,7 +302,7 @@ canvas {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #000;
+  background-color: #0C0910; /* #000, #0C0910*/
   background-image: url("");
   background-repeat: no-repeat;
   background-size: cover;

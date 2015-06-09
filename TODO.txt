@@ -1,28 +1,19 @@
 TODO:
+1. page 2 darker hue and apply css gradient*: #0DAB76, #495780, #65B891
+2. emboss text
+3. skill circle
 
 Bugs:
 
 Ideas:
-0. mountain of particles, i.e. no.2 sideways
-1. Tag Line: (Typing effect) -- almost done
-	* Hacker, Coder, Engineer?
-	* Something with coffee
-	*Coding by day, hackrer by night.
-2. slide animation name/intro/photo  -- done
-	OR
-	zoom out animation
-7. Text hides as you scroll: http://stefanerickson.github.io/covervid/
-3. SVG Apple watch thing for skills* page 2.
-5. Full Screen Scroll OR 7
-6. Contact Form? Logo: http://codepen.io/acronamy/pen/QwmdBL
+7. Text hides as you scroll parallax: http://stefanerickson.github.io/covervid/ - do if typed.js removed
+3.*** SVG Apple watch thing for skills* page 2 with http://templated.co/interphase
 8. Footer?
-9. For hacking: http://codepen.io/ramsaylanier/pen/raybzy
 10. Page 3 is projects direct copy from cygnus inventive
+9. A hacking section?: http://codepen.io/ramsaylanier/pen/raybzy
 11. Arrow pointing downwards to next page
 12. Add quirky comments in the source -- OR crazy obfuscation
-13. Push Notification when someone visits.
 14. Cloudflare?
-15. http://www.jakecooper.me/
 
 Inspiration:
 00. http://codepen.io/rahatm1/full/xGqzgZ --Particle
@@ -34,20 +25,22 @@ Inspiration:
 5. http://kurokawawonderland.jp/
 6. http://scrollme.nckprsn.com/
 7. www.kfsoft.info/MyFloatingBg/demo.php
-8. http://tairemadailey.com/ -- Sections
-9. http://themeforest.net/item/coffee-cream-vcard-and-portfolio-html-template/full_screen_preview/4737939
+8. http://tairemadailey.com/ -- Sections/Content
+9. http://themeforest.net/item/coffee-cream-vcard-and-portfolio-html-template/full_screen_preview/4737939 --sections/content
 10. http://fittextjs.com -- responsive
-11. http://nick-jonas.github.io/windows/
+11. http://nick-jonas.github.io/windows/ --use this
 12. https://github.com/julianlloyd/scrollReveal.js
 13. http://alvarotrigo.com/fullPage/#3rdPage
 14. http://paolorotolo.github.io
+15. http://www.jakecooper.me/
+16. Raleway font
 
-JS BG:
+JS BG: #0C0910
 1. https://github.com/jnicol/particleground
 2. http://codepen.io/digitalhour/pen/WvGJVV
 3. http://codepen.io/VincentGarreau/pen/pnlso
 4. http://howlmedia.co.za/javascript-particle-generator/
-5. http://vincentgarreau.com/particles.js/ ***
+5. http://vincentgarreau.com/particles.js/
 
 
 http://coolors.co/app/323840-a682ff-715aff-5887ff-55c1ff
@@ -58,4 +51,19 @@ Discarded Ideas:
 4. SVG animated name:
 	* https://github.com/dboudro/AnimateSVGText
 	* http://maxwellito.github.io/vivus/
+6. Contact Form? Logo: http://codepen.io/acronamy/pen/QwmdBL
+0. mountain of particles, i.e. no.2 sideways
+5. Full Screen Scroll OR 7
+
+
+Done:
+13. Push Notification when someone visits. --done
+1. Tag Line: (Typing effect) -- done
+	* Hacker, Coder, Engineer?
+	* Something with coffee
+	*Coding by day, hackrer by night.
+2. slide animation name/intro/photo  -- done
+	OR
+	zoom out animation
+
 
