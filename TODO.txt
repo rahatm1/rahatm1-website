@@ -1,7 +1,4 @@
 TODO:
-1. Increase size of h1, h2 and avatar?
-2. Add css for tagline h2. Add shadows for h1 and h2?
-3. Social Icons on the right corner
 
 Bugs:
 
@@ -25,6 +22,7 @@ Ideas:
 12. Add quirky comments in the source -- OR crazy obfuscation
 13. Push Notification when someone visits.
 14. Cloudflare?
+15. http://www.jakecooper.me/
 
 Inspiration:
 00. http://codepen.io/rahatm1/full/xGqzgZ --Particle

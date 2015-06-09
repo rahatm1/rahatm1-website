@@ -1,18 +1,19 @@
 $(function(){
     $(".typed").typed({
-        strings: ["Hi, I'm Rahat.^650",
-                "I make software.",
+        strings: ["Hi,^300 I'm Rahat.^650",
+                "I build software.",
                 "And...^600 I break software.",
                 "Rahat Mahbub"],
         typeSpeed: 1,
         backDelay: 1200,
-        showCursor: false,
+        showCursor: true,
         callback: function() {
             setTimeout(function() {
+                $('.typed-cursor').hide();
+
                 $('#tagline')
                     .css('visibility', 'visible')
                     .addClass('animated fadeInUp');
-
                 }, 800);
         }
         });
