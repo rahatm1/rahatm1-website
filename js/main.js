@@ -17,4 +17,29 @@ $(function(){
                 }, 800);
         }
         });
+
+    $('#circle').circleProgress({
+        value: 0.75,
+        size: 100,
+        fill: {
+            gradient: ["red", "orange"]
+        }
+    });
+
+    $('#circle2').circleProgress({
+        value: 0.75,
+        size: 100,
+        fill: {
+            gradient: ["red", "blue"]
+        }
+    });
+
+
+    $('#circle3').circleProgress({
+        value: 0.75,
+        size: 100,
+        fill: {
+            gradient: ["blue", "green"]
+        }
+    });
 });

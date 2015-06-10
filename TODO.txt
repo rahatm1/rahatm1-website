@@ -1,7 +1,8 @@
 TODO:
-1. page 2 darker hue and apply css gradient*: #0DAB76, #495780, #65B891
+1. page 2 darker hue and apply css gradient*: #0DAB76, #495780, #65B891 -- inspire from stripe.com
 2. emboss text
-3. skill circle
+3. skill circle/radial progress bar: http://kottenator.github.io/jquery-circle-progress/ OR http://kimmobrunfeldt.github.io/progressbar.js/
+	 6 of them. 3 equal divs, side by side. 3 at the bottom.
 
 Bugs:
 
