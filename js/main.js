@@ -1,5 +1,5 @@
 $(function(){
-    $(".typed").typed({
+    $('.typed').typed({
         strings: ["Hi,^300 I'm Rahat.^650",
                 "I build software.",
                 "And...^600 I break software.",
@@ -25,9 +25,6 @@ $(function(){
         text: {
             value: '0'
         }
-        // step: function(state, bar) {
-        //     bar.setText((bar.value() * 100).toFixed(0));
-        // }
     };
 
     var circle = new ProgressBar.Circle('#progress1', progressOpts).animate(0.8);
