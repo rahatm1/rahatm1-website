@@ -1,13 +1,19 @@
 TODO:
+0. Finish page 2. decide between languages inside or percentage number inside.
 1. page 2 darker hue and apply css gradient*: #0DAB76, #495780, #65B891 -- inspire from stripe.com
 2. emboss text
 3. skill circle/radial progress bar: http://kottenator.github.io/jquery-circle-progress/ OR http://kimmobrunfeldt.github.io/progressbar.js/
 	 6 of them. 3 equal divs, side by side. 3 at the bottom.
+4. Detect page position to start progressbar.js --with scrollreveal?
+17. A link to resume from page1
+
+999. "Remove unused CSS" with uncss or other tool
+9999. Use modernizr to disable particle for incompatible browsers.
 
 Bugs:
 
 Ideas:
-7. Text hides as you scroll parallax: http://stefanerickson.github.io/covervid/ - do if typed.js removed
+1. FullPage with 11 or 13
 3.*** SVG Apple watch thing for skills* page 2 with http://templated.co/interphase
 8. Footer?
 10. Page 3 is projects direct copy from cygnus inventive
@@ -15,9 +21,19 @@ Ideas:
 11. Arrow pointing downwards to next page
 12. Add quirky comments in the source -- OR crazy obfuscation
 14. Cloudflare?
+15. About me section with link from page 1
+16. Favorite quotes?
+17. Text hides as you scroll parallax: http://stefanerickson.github.io/covervid/ - do if typed.js removed
+
+Current Visual Layout:
+1. Page 1 is Final
+2. Page 2: About Me + Skills
+3. Page 3: Projects
+4. Half sized Page 4: Let's Talk
 
 Inspiration:
-00. http://codepen.io/rahatm1/full/xGqzgZ --Particle
+
+00. http://codepen.io/rahatm1/full/xGqzgZ --Particle --Done
 0. http://codepen.io/digitalhour/pen/WvGJVV
 1. https://www.typify.io/?ref=producthunt
 2. parallax scroll top photo
@@ -27,14 +43,14 @@ Inspiration:
 6. http://scrollme.nckprsn.com/
 7. www.kfsoft.info/MyFloatingBg/demo.php
 8. http://tairemadailey.com/ -- Sections/Content
-9. http://themeforest.net/item/coffee-cream-vcard-and-portfolio-html-template/full_screen_preview/4737939 --sections/content
-10. http://fittextjs.com -- responsive
+9. http://themeforest.net/item/coffee-cream-vcard-and-portfolio-html-template/full_screen_preview/4737939 --sections/content -- sections/heading
 11. http://nick-jonas.github.io/windows/ --use this
 12. https://github.com/julianlloyd/scrollReveal.js
 13. http://alvarotrigo.com/fullPage/#3rdPage
 14. http://paolorotolo.github.io
 15. http://www.jakecooper.me/
 16. Raleway font
+18. http://www.hawker.cc/
 
 JS BG: #0C0910
 1. https://github.com/jnicol/particleground
@@ -66,5 +82,3 @@ Done:
 2. slide animation name/intro/photo  -- done
 	OR
 	zoom out animation
-
-

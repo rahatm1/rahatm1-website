@@ -8,38 +8,37 @@ $(function(){
         backDelay: 1200,
         showCursor: true,
         callback: function() {
+            $('.typed-cursor').fadeOut("slow");
             setTimeout(function() {
-                $('.typed-cursor').hide();
-
                 $('#tagline')
                     .css('visibility', 'visible')
                     .addClass('animated fadeInUp');
                 }, 800);
         }
-        });
-
-    $('#circle').circleProgress({
-        value: 0.75,
-        size: 100,
-        fill: {
-            gradient: ["red", "orange"]
-        }
     });
 
-    $('#circle2').circleProgress({
-        value: 0.75,
-        size: 100,
-        fill: {
-            gradient: ["red", "blue"]
+    var progressOpts = {
+        color: '#FFA013',
+        strokeWidth: 5,
+        trailWidth: 3,
+        duration: 1500,
+        text: {
+            value: '0'
         }
-    });
+        // step: function(state, bar) {
+        //     bar.setText((bar.value() * 100).toFixed(0));
+        // }
+    };
 
+    var circle = new ProgressBar.Circle('#progress1', progressOpts).animate(0.8);
 
-    $('#circle3').circleProgress({
-        value: 0.75,
-        size: 100,
-        fill: {
-            gradient: ["blue", "green"]
-        }
-    });
+    var circle2 = new ProgressBar.Circle('#progress2', progressOpts).animate(0.7);
+
+    var circle3 = new ProgressBar.Circle('#progress3', progressOpts).animate(0.7);
+
+    var circle4 = new ProgressBar.Circle('#progress4', progressOpts).animate(0.7);
+
+    var circle5 = new ProgressBar.Circle('#progress5', progressOpts).animate(0.7);
+
+    var circle6 = new ProgressBar.Circle('#progress6', progressOpts).animate(0.7);
 });
