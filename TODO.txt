@@ -1,10 +1,4 @@
 TODO:
-0. Finish page 2. decide between languages inside or percentage number inside.
-1. page 2 darker hue and apply css gradient*: #0DAB76, #495780, #65B891 -- inspire from stripe.com
-2. emboss text
-3. skill circle/radial progress bar: http://kottenator.github.io/jquery-circle-progress/ OR http://kimmobrunfeldt.github.io/progressbar.js/
-	 6 of them. 3 equal divs, side by side. 3 at the bottom.
-4. Detect page position to start progressbar.js --with scrollreveal?
 17. A link to resume from page1
 
 999. "Remove unused CSS" with uncss or other tool
@@ -14,12 +8,12 @@ Bugs:
 
 Ideas:
 1. FullPage with 11 or 13
-3.*** SVG Apple watch thing for skills* page 2 with http://templated.co/interphase
-8. Footer?
+8. Footer? + views counter?
 10. Page 3 is projects direct copy from cygnus inventive
-9. A hacking section?: http://codepen.io/ramsaylanier/pen/raybzy
 11. Arrow pointing downwards to next page
 12. Add quirky comments in the source -- OR crazy obfuscation
+
+9. A hacking section?: http://codepen.io/ramsaylanier/pen/raybzy
 14. Cloudflare?
 15. About me section with link from page 1
 16. Favorite quotes?
@@ -27,9 +21,9 @@ Ideas:
 
 Current Visual Layout:
 1. Page 1 is Final
-2. Page 2: About Me + Skills
+2. Page 2: Skills -- done.
 3. Page 3: Projects
-4. Half sized Page 4: Let's Talk
+4. Half sized Page 4: Let's Talk Footer? + views counter?
 
 Inspiration:
 
@@ -65,6 +59,7 @@ http://coolors.co/000000-322a26-454b66-677db7-9ca3db
 http://coolors.co/app/001021-1481ba-11b5e4-0caadc-323840
 
 Discarded Ideas:
+1. about me section on page 2
 4. SVG animated name:
 	* https://github.com/dboudro/AnimateSVGText
 	* http://maxwellito.github.io/vivus/
@@ -74,6 +69,12 @@ Discarded Ideas:
 
 
 Done:
+0. Finish page 2. decide between languages inside or percentage number inside. -- lang icon chosen
+1. page 2 darker hue and apply css gradient*: #0DAB76, #495780, #65B891 -- inspire from stripe.com
+2. emboss text
+3. skill circle/radial progress bar: http://kottenator.github.io/jquery-circle-progress/ OR http://kimmobrunfeldt.github.io/progressbar.js/
+	 6 of them. 3 equal divs, side by side. 3 at the bottom.
+4. Detect page position to start progressbar.js --with scrollreveal?
 13. Push Notification when someone visits. --done
 1. Tag Line: (Typing effect) -- done
 	* Hacker, Coder, Engineer?
@@ -82,3 +83,4 @@ Done:
 2. slide animation name/intro/photo  -- done
 	OR
 	zoom out animation
+3.*** SVG Apple watch thing for skills* page 2 with http://templated.co/interphase

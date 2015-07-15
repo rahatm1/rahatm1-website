@@ -17,6 +17,10 @@ $(function(){
         }
     });
 
+//------------------------------------------------------------------------------
+// Page #2 - Skills Circular Progress 
+//------------------------------------------------------------------------------
+
     var progressOpts = {
         size: 200,
         thickness: 8,
@@ -32,8 +36,33 @@ $(function(){
 
     var progressVals = [0.75, 0.8, 0.65, 0.7, 0.6, 0.5];
 
-    for (var i = 0; i < progressVals.length; i++) {
-        progressOpts.value = progressVals[i];
-        $('#progress'+(i+1)).circleProgress(progressOpts);
-    }
+    var setProgress = function(start, end) {
+        for (var i = start; i <=end; i++) {
+            progressOpts.value = progressVals[i-1];
+            $('#progress'+i).circleProgress(progressOpts);
+        }
+    };
+
+    var firstHalf = $('#progress1'),
+        lastHalf = $('#progress4'),
+        firstInited = false,
+        lastInited = false;
+
+    firstHalf.appear({force_process: true});
+    lastHalf.appear({force_process: true});
+
+    firstHalf.on('appear', function() {
+        if (!firstInited) {
+            setProgress(1,3);
+            firstInited = true;
+        }
+    });
+
+    lastHalf.on('appear', function() {
+        if (!lastInited) {
+            setProgress(4,6);
+            lastInited = true;
+        }
+    });
+
 });

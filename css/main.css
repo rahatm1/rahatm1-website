@@ -283,24 +283,24 @@ body {
     background-size: 60% 60%;
 }
 
-#progress2 {
+#progress4 {
     background: url('../img/logos/nodejs.svg') no-repeat;
     background-size: 75% 75%;
     background-position: 50% 150%;
 }
 
-#progress3 {
+#progress2 {
     background: url('../img/logos/java.svg') no-repeat center;
     background-size: 65% 65%;
 }
 
-#progress4 {
+#progress5 {
     background: url('../img/logos/angular.svg') no-repeat;
     background-size: 65% 65%;
     background-position: 55% 50%;
 }
 
-#progress5 {
+#progress3 {
     background: url('../img/logos/python.svg') no-repeat center;
     background-size: 60% 60%;
 }
