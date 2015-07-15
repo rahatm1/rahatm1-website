@@ -18,24 +18,22 @@ $(function(){
     });
 
     var progressOpts = {
-        color: '#FFA013',
-        strokeWidth: 5,
-        trailWidth: 3,
-        duration: 1500,
-        text: {
-            value: '0'
+        size: 200,
+        thickness: 8,
+        startAngle: -Math.PI/2,
+        lineCap: 'round',
+        fill: {
+            color: '#FFA013'
+        },
+        animation: {
+            duration: 1500
         }
     };
 
-    var circle = new ProgressBar.Circle('#progress1', progressOpts).animate(0.8);
+    var progressVals = [0.75, 0.8, 0.65, 0.7, 0.6, 0.5];
 
-    var circle2 = new ProgressBar.Circle('#progress2', progressOpts).animate(0.7);
-
-    var circle3 = new ProgressBar.Circle('#progress3', progressOpts).animate(0.7);
-
-    var circle4 = new ProgressBar.Circle('#progress4', progressOpts).animate(0.7);
-
-    var circle5 = new ProgressBar.Circle('#progress5', progressOpts).animate(0.7);
-
-    var circle6 = new ProgressBar.Circle('#progress6', progressOpts).animate(0.7);
+    for (var i = 0; i < progressVals.length; i++) {
+        progressOpts.value = progressVals[i];
+        $('#progress'+(i+1)).circleProgress(progressOpts);
+    }
 });
