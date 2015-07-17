@@ -18,7 +18,7 @@ $(function(){
     });
 
 //------------------------------------------------------------------------------
-// Page #2 - Skills Circular Progress 
+// Page #2 - Skills Circular Progress
 //------------------------------------------------------------------------------
 
     var progressOpts = {
@@ -30,11 +30,11 @@ $(function(){
             color: '#FFA013'
         },
         animation: {
-            duration: 1500
+            duration: 1200
         }
     };
 
-    var progressVals = [0.75, 0.8, 0.65, 0.7, 0.6, 0.5];
+    var progressVals = [0.75, 0.65, 0.6, 0.8, 0.75, 0.5];
 
     var setProgress = function(start, end) {
         for (var i = start; i <=end; i++) {

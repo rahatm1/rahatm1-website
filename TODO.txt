@@ -1,10 +1,14 @@
 TODO:
-17. A link to resume from page1
+1. A link to resume from page1
 
 999. "Remove unused CSS" with uncss or other tool
 9999. Use modernizr to disable particle for incompatible browsers.
+http://blog.venanti.us/web-app-2015/ -- minify details
 
 Bugs:
+1. "Note: Each percentage is an arbitrary measurement of how close I am to mastering each language and its unique features."
+2. Reduce time duration for technical skills.
+3. Reduce percentage for java
 
 Ideas:
 1. FullPage with 11 or 13
