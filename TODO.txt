@@ -6,9 +6,6 @@ TODO:
 http://blog.venanti.us/web-app-2015/ -- minify details
 
 Bugs:
-1. "Note: Each percentage is an arbitrary measurement of how close I am to mastering each language and its unique features."
-2. Reduce time duration for technical skills.
-3. Reduce percentage for java
 
 Ideas:
 1. FullPage with 11 or 13
