@@ -23,7 +23,7 @@ $(function(){
 
     var progressOpts = {
         size: 200,
-        thickness: 8,
+        thickness: 7,
         startAngle: -Math.PI/2,
         lineCap: 'round',
         fill: {
@@ -64,5 +64,14 @@ $(function(){
             lastInited = true;
         }
     });
+
+//------------------------------------------------------------------------------
+// Page #3 - Projects Page
+//------------------------------------------------------------------------------
+
+$('#project__gallery').flickerplate({
+    "auto_flick": false,
+    "auto_flick_delay": 30
+});
 
 });

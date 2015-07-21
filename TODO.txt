@@ -1,18 +1,16 @@
 TODO:
-1. A link to resume from page1
+2. Projects title on page 3--done
 
 999. "Remove unused CSS" with uncss or other tool
 9999. Use modernizr to disable particle for incompatible browsers.
 http://blog.venanti.us/web-app-2015/ -- minify details
+https://google.github.io/styleguide/htmlcssguide.xml
 
 Bugs:
 
 Ideas:
-0. Show only first page, of viewed on mobile
-1. FullPage with 11 or 13
-8. Footer? + views counter?
-10. Page 3 is projects direct copy from cygnus inventive
-11. Arrow pointing downwards to next page
+10. Page 3 is projects --nearly done
+0. Show only first page, if viewed on mobile
 12. Add quirky comments in the source -- OR crazy obfuscation
 
 9. A hacking section?: http://codepen.io/ramsaylanier/pen/raybzy
@@ -20,6 +18,8 @@ Ideas:
 15. About me section with link from page 1
 16. Favorite quotes?
 17. Text hides as you scroll parallax: http://stefanerickson.github.io/covervid/ - do if typed.js removed
+1. FullPage with 11 or 13
+11. Arrow pointing downwards to next page
 
 Current Visual Layout:
 1. Page 1 is Final
@@ -44,9 +44,8 @@ Inspiration:
 12. https://github.com/julianlloyd/scrollReveal.js
 13. http://alvarotrigo.com/fullPage/#3rdPage
 14. http://paolorotolo.github.io
-15. http://www.jakecooper.me/
 16. Raleway font
-18. http://www.hawker.cc/
+17. Google Search: "Reddit Portfolio websites"
 
 JS BG: #0C0910
 1. https://github.com/jnicol/particleground
@@ -71,6 +70,8 @@ Discarded Ideas:
 
 
 Done:
+1. A link to resume from page1
+8. Footer? + views counter?
 0. Finish page 2. decide between languages inside or percentage number inside. -- lang icon chosen
 1. page 2 darker hue and apply css gradient*: #0DAB76, #495780, #65B891 -- inspire from stripe.com
 2. emboss text

@@ -91,9 +91,6 @@ textarea {
     background: #531253;
 }
 
-.title {
-    color: white;
-}
 
 /* ==============
     MOBILE: Menu
@@ -152,11 +149,6 @@ nav a:hover {
 /* ===============
     ALL: IE Fixes
    =============== */
-
-.ie7 .title {
-    padding-top: 20px;
-}
-
 /* ==========================================================================
    Rahat's custom styles
    ========================================================================== */
@@ -201,6 +193,57 @@ body {
   width: 95%;
 }
 
+.section__project {
+}
+
+#project__gallery {
+    box-sizing: border-box;
+    background-image: url(../img/bg/road-street-blur-blurred.jpg);
+    background-size: cover;
+    height: 95vh;
+    position: relative;
+    /*margin-top: -70px;*/
+}
+
+.project__description {
+    width: 50%;
+}
+
+.project__anchor {
+    color: #fff
+}
+
+.project__title {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    padding-top: 10px;
+}
+
+/*#test {
+    height: 80vh;
+    background-image: url(../img/bg/coffee-apple-iphone-laptop.jpg);
+    background-size: cover;
+    -webkit-filter: blur(2px);
+}
+
+#test2 {
+    height: 0px;
+    text-align: center;
+    color: #eee;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    top: -400px;
+    z-index: 12;
+    position: relative;
+}*/
+
+.footer {
+    height: 5vh;
+    text-align: center;
+    color:#777;
+}
 .section--top {
   height: 100%;
 }
@@ -231,19 +274,31 @@ body {
     Skills Section
    ===========================================================================*/
 
+/*.section__skill {
+ padding: 1px;
+ height: 100vh;
+ background-color: #4dac71;
+ -moz-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
+ -webkit-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
+ -o-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
+ -ms-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);*/
+ /*background-image: linear-gradient(60deg, #0DAB76 50%, #0FA371 50%);*/
+ /*background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
+
+ color: #ffffff;
+}*/
+
 .section__skill {
  padding: 1px;
  height: 100%;
  background-color: #0DAB76;
- -moz-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
- -webkit-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
- -o-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
- -ms-background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
- background-image: linear-gradient(60deg, #0DAB76 50%, #0FA371 50%);
- color: #ffffff;
+ background-image: linear-gradient(
+      60deg,
+      #0DAB76, #1A5B9F
+    );
 }
 
-.skill__title {
+.title {
     font-family: 'Prociono', sans-serif;
     color: #fff;
     text-align: center;
@@ -326,7 +381,6 @@ body {
 #skill__footer {
     text-align: center;
     color: #eee;
-    line-height: 250%;
 }
 
 /* ========
@@ -475,6 +529,10 @@ html {
 */.social-button.envelope-o .fa {
   color: #DC4A38;
 }
+
+.social-button.file-pdf-o .fa {
+  color: #ffe953;
+}
 /*.social-button.github:before {
   background-color: #000;
 }
@@ -500,6 +558,10 @@ html {
 }
 .social-button:focus {
   opacity: .85;
+}
+
+.heart-o {
+    color: #D44332;
 }
 
 /* ==========================================================================
@@ -557,10 +619,6 @@ html {
 /* ============
     WIDE: Menu
    ============ */
-
-    .title {
-        float: left;
-    }
 
     nav {
         float: right;
@@ -663,10 +721,6 @@ html {
 
     a[href]:after {
         content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
     }
 
     a[href^="#"]:after,

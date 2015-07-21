@@ -17,6 +17,9 @@
         <link rel="stylesheet" href="css/animate.min.css">
         <link rel="stylesheet" href="css/main.css">
 
+        <link rel="stylesheet" href="css/jquery.skippr.css">
+        <link rel="stylesheet" href="css/flickerplate.css">
+
         <!--Fonts-->
         <link href='http://fonts.googleapis.com/css?family=Prociono' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
@@ -70,35 +73,38 @@
                         <a href="mailto:rahatm1@uvic.ca" class="social-button envelope-o">
                             <i class="fa fa-envelope-o"></i>
                         </a>
+                        <a href="./RahatMahbub.pdf" class="social-button file-pdf-o">
+                            <i class="fa fa-file-pdf-o"></i>
+                        </a>
                     </div>
 
             </div>
         </section>
 
         <section class="section__skill">
-            <h1 class="skill__title">Technical Skills</h1>
+            <h1 class="title">Technical Skills</h1>
             <br>
             <div class="grid">
 
                 <div class="columnLeft">
                     <div class="progress" id="progress1"></div>
-                    <h2 class="skill__title">Javascript</h2>
+                    <h2 class="title">Javascript</h2>
                     <div class="progress" id="progress4"></div>
-                    <h2 class="skill__title">Node.js</h2>
+                    <h2 class="title">Node.js</h2>
                 </div>
 
                 <div class="columnMid">
                     <div class="progress" id="progress2"></div>
-                    <h2 class="skill__title">Java</h2>
+                    <h2 class="title">Java</h2>
                     <div class="progress" id="progress5"></div>
-                    <h2 class="skill__title">AngularJS</h2>
+                    <h2 class="title">AngularJS</h2>
                 </div>
 
                 <div class="columnRight">
                     <div class="progress" id="progress3"></div>
-                    <h2 class="skill__title">Python</h2>
+                    <h2 class="title">Python</h2>
                     <div class="progress" id="progress6"></div>
-                    <h2 class="skill__title">Android</h2>
+                    <h2 class="title">Android</h2>
                 </div>
             </div>
             <div id="skill__footer">
@@ -109,10 +115,52 @@
             </div>
         </section>
 
-        <section class="section__content">
-            
+        <section class="section__project">
+            <!-- <div id="test">
+
+            </div>
+            <div id="test2">
+                <h1 class="title">Project 1</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div> -->
+            <div class="project__title">
+                <h1 class="title">Projects</h1>
+            </div>
+            <div id="project__gallery"
+                data-block-text="false"
+                data-theme="light">
+                <ul>
+                    <li>
+                        <div class="project__description">
+                            <h2 class="title">Medi-App</h2>
+                            <div>
+                                <ul>
+                                    <li>A mobile web-app for medical appointment scheduling and prescription tracking.</li>
+                                    <li>Built with Node.js, MongoDB, and JQuery Mobile</li>
+                                    <li><a class="project__anchor" href="http://medi-app.heroku.com">Click Here</a> for the demo </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="flick-title">Title 2</div>
+                        <div class="flick-sub-text">Text line 2</div>
+                    </li>
+                    <li>
+                        <div class="flick-title">Title 3</div>
+                        <div class="flick-sub-text">Text line 3</div>
+                    </li>
+                </ul>
+            </div>
         </section>
 
+        <section class="footer">
+            <p>
+                Made with <i class="fa fa-heart heart-o"></i> by Rahat Mahbub
+            </p>
+        </section>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
@@ -122,6 +170,11 @@
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
         <script src="js/vendor/circle-progress.js"></script>
         <script src="js/vendor/jquery.appear.js"></script>
+
+        <script src="js/vendor/jquery.skippr.min.js"></script>
+
+        <script src="js/vendor/hammer-v2.0.3.min.js"></script>
+        <script src="js/vendor/flickerplate.min.js"></script>
 
         <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
         <script src="js/particle.js"></script>
