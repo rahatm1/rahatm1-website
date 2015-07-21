@@ -1,5 +1,4 @@
 TODO:
-2. Projects title on page 3--done
 
 999. "Remove unused CSS" with uncss or other tool
 9999. Use modernizr to disable particle for incompatible browsers.
@@ -9,7 +8,6 @@ https://google.github.io/styleguide/htmlcssguide.xml
 Bugs:
 
 Ideas:
-10. Page 3 is projects --nearly done
 0. Show only first page, if viewed on mobile
 12. Add quirky comments in the source -- OR crazy obfuscation
 
@@ -24,7 +22,7 @@ Ideas:
 Current Visual Layout:
 1. Page 1 is Final
 2. Page 2: Skills -- done.
-3. Page 3: Projects
+3. Page 3: Projects --done
 4. Half sized Page 4: Let's Talk Footer? + views counter?
 
 Inspiration:
@@ -70,6 +68,7 @@ Discarded Ideas:
 
 
 Done:
+2. Projects title on page 3--done
 1. A link to resume from page1
 8. Footer? + views counter?
 0. Finish page 2. decide between languages inside or percentage number inside. -- lang icon chosen

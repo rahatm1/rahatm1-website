@@ -70,8 +70,8 @@ $(function(){
 //------------------------------------------------------------------------------
 
 $('#project__gallery').flickerplate({
-    "auto_flick": false,
-    "auto_flick_delay": 30
+    "auto_flick": true,
+    "auto_flick_delay": 6
 });
 
 });
