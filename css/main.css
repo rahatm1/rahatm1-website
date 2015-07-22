@@ -246,7 +246,7 @@ body {
 
 #project-gallery {
   box-sizing: border-box;
-  background-image: url(../img/bg/road-street-blur-blurred.jpg);
+  background-image: url(../img/bg/Optimized-road-street-blur-blurred.jpg);
   background-size: cover;
   height: 95vh;
   position: relative;
@@ -422,34 +422,16 @@ canvas {
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 480px) {
-  /* ====================
-    INTERMEDIATE: Menu
-   ==================== */
-
-  /* ========================
-    INTERMEDIATE: IE Fixes
-   ======================== */
-}
-
-@media only screen and (min-width: 768px) {
-  /* ====================
-    WIDE: CSS3 Effects
-   ==================== */
-
-  /* ============
-    WIDE: Menu
-   ============ */
-
-  /* ============
-    WIDE: Main
-   ============ */
-}
-
-@media only screen and (min-width: 1140px) {
-  /* ===============
-    Maximal Width
-   =============== */
+@media only screen and (max-width: 480px) {
+    .section-skill {
+        display: none;
+    }
+    .section-projects {
+        display: none;
+    }
+    .file-pdf-o {
+        display: none;
+    }
 }
 
 /* ==========================================================================

@@ -1,5 +1,5 @@
 TODO:
-0. Show only first page, if viewed on mobile
+Google Analytics and SEO
 browser testing
 https://developers.google.com/speed/pagespeed/
 
@@ -63,6 +63,7 @@ Discarded Ideas:
 
 
 Done:
+0. Show only first page, if viewed on mobile
 https://google.github.io/styleguide/htmlcssguide.xml
 http://blog.venanti.us/web-app-2015/ -- minify details
 9999. Use modernizr to disable particle for incompatible browsers. --not needed?
