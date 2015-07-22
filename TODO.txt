@@ -1,5 +1,5 @@
 TODO:
-Google Analytics and SEO
+SEO
 browser testing
 https://developers.google.com/speed/pagespeed/
 
