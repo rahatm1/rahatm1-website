@@ -57,7 +57,7 @@ body {
   overflow: hidden;
 }
 
-.avatar__img {
+.avatar-img {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -74,7 +74,7 @@ body {
   vertical-align: middle;
 }
 
-.section__content {
+.section-content {
   display: inline-block;
   vertical-align: middle;
   position: relative;
@@ -82,11 +82,11 @@ body {
   width: 95%;
 }
 
-.section--top {
+.section-top {
   height: 100%;
 }
 
-.top__title {
+.top-title {
   font-family: 'Prociono', sans-serif;
   color: white;
   margin-bottom: 6.25px;
@@ -148,7 +148,7 @@ body {
     Skills Section
    ===========================================================================*/
 
-/*.section__skill {
+/*.section-skill {
  padding: 1px;
  height: 100vh;
  background-color: #4dac71;
@@ -164,7 +164,7 @@ body {
  color: #ffffff;
 }*/
 
-.section__skill {
+.section-skill {
   padding: 1px;
   height: 100%;
   background-color: #0DAB76;
@@ -235,7 +235,7 @@ body {
   background-size: 60% 60%;
 }
 
-#skill__footer {
+#skill-footer {
   text-align: center;
   color: #eee;
 }
@@ -244,7 +244,7 @@ body {
     Projects Section
    ===========================================================================*/
 
-#project__gallery {
+#project-gallery {
   box-sizing: border-box;
   background-image: url(../img/bg/road-street-blur-blurred.jpg);
   background-size: cover;
@@ -252,17 +252,17 @@ body {
   position: relative;
 }
 
-.project__description {
+.project-description {
   width: 50%;
   float: right;
   margin-top: 100px;
 }
 
-.project__anchor {
+.project-anchor {
   color: #fff;
 }
 
-.project__title {
+.project-title {
   position: absolute;
   z-index: 2;
   width: 100%;

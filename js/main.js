@@ -69,7 +69,7 @@ $(function(){
 // Page #3 - Projects Page
 //------------------------------------------------------------------------------
 
-$('#project__gallery').flickerplate({
+$('#project-gallery').flickerplate({
     "auto_flick": true,
     "auto_flick_delay": 6
 });

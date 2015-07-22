@@ -1,16 +1,11 @@
 TODO:
-
-9999. Use modernizr to disable particle for incompatible browsers. --not needed?
-http://blog.venanti.us/web-app-2015/ -- minify details
-https://google.github.io/styleguide/htmlcssguide.xml
+0. Show only first page, if viewed on mobile
 browser testing
 https://developers.google.com/speed/pagespeed/
 
 Bugs:
 
 Ideas:
-0. Show only first page, if viewed on mobile
-
 9. A hacking section?: http://codepen.io/ramsaylanier/pen/raybzy
 14. Cloudflare?
 15. About me section with link from page 1
@@ -68,6 +63,9 @@ Discarded Ideas:
 
 
 Done:
+https://google.github.io/styleguide/htmlcssguide.xml
+http://blog.venanti.us/web-app-2015/ -- minify details
+9999. Use modernizr to disable particle for incompatible browsers. --not needed?
 999. "Remove unused CSS" with uncss or other tool --done
 12. Add quirky comments in the source -- OR crazy obfuscation --done
 2. Projects title on page 3--done
