@@ -1,6 +1,6 @@
 TODO:
-SEO
-browser testing
+SEO -- google's email + https
+browser testing -- http://www.w3schools.com/browsers/browsers_stats.asp
 https://developers.google.com/speed/pagespeed/
 
 Bugs:
